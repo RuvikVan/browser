@@ -12,9 +12,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
-              <span>BLOCKCHAIN</span>
-            </a>
+            <blockchaindrop></blockchaindrop>
           </li>
           <li>
             <a href="#">
@@ -33,8 +31,18 @@
 </template>
 
 <script>
+import blockchaindrop from './dropdown/blockchaindrop'
 export default {
-  name: 'header'
+  name: 'header',
+  components: {
+    blockchaindrop
+  }
+  // data () {
+  //   return {
+  //     listTag: ['BLOCKS', 'TRANSACTIONS'],
+  //     mainTag: 'BLOCKCHAIN'
+  //   }
+  // }
 }
 </script>
 
@@ -72,6 +80,7 @@ export default {
 
     li {
       float: left;
+      width: 120px;
       list-style: none;
       line-height: 40px;
       margin-left: 40px;
