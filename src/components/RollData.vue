@@ -192,6 +192,7 @@ export default {
   @media screen and (min-width: 1000px) {
     article {
       width: 100%;
+      display: flex;
     }
 
     .wrapper {
@@ -207,6 +208,7 @@ export default {
       display: flex;
       margin-top: 30px;
       margin-bottom: 30px;
+      flex-direction: column;
     }
 
     .content-right {
@@ -214,6 +216,7 @@ export default {
       display: flex;
       margin-top: 30px;
       margin-bottom: 30px;
+      flex-direction: column;
     }
 
     .content-left-header {
@@ -245,6 +248,7 @@ export default {
 
     .content-left-content {
       display: flex;
+      flex-direction: column;
     }
 
     .content-left-content p {
@@ -291,6 +295,7 @@ export default {
 
     .content-right-content {
       display: flex;
+      flex-direction: column;
     }
 
     .content-right-content span {

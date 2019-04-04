@@ -31,18 +31,12 @@
 </template>
 
 <script>
-import blockchaindrop from './dropdown/blockchaindrop'
+import blockchaindrop from './blockchain/blockchaindrop'
 export default {
   name: 'header',
   components: {
     blockchaindrop
   }
-  // data () {
-  //   return {
-  //     listTag: ['BLOCKS', 'TRANSACTIONS'],
-  //     mainTag: 'BLOCKCHAIN'
-  //   }
-  // }
 }
 </script>
 

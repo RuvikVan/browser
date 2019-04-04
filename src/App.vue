@@ -24,11 +24,6 @@ export default {
     padding: 0;
   }
 
-  div {
-    display: flex;
-    flex-direction: column;
-  }
-
   html {
     font-size: 16px;
     height: 100%;

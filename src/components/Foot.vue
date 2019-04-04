@@ -36,9 +36,11 @@ export default {
     }
 
     .content {
+      margin-top: 20px;
       width: 75%;
       display: flex;
       justify-content: center;
+      flex-direction: column;
     }
 
     .content-img {
@@ -56,6 +58,7 @@ export default {
       display: flex;
       height: 30%;
       justify-content: center;
+      margin-top: 10px;
     }
 
     .content-company p {
