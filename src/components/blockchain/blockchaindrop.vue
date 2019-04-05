@@ -8,7 +8,9 @@
         <router-link :to="{name:'Block'}">
           <el-dropdown-item>BLOCKS</el-dropdown-item>
         </router-link>
+        <router-link :to="{name:'Transactions'}">
         <el-dropdown-item>TRANSACTIONS</el-dropdown-item>
+        </router-link>
       </el-dropdown-menu>
     </el-dropdown>
   </div>
